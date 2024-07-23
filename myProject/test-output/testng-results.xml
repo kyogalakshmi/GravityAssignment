@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-23T14:22:06 IST" name="Suite" finished-at="2024-07-23T14:22:11 IST" duration-ms="4842">
+    <groups>
+    </groups>
+    <test started-at="2024-07-23T14:22:06 IST" name="Test" finished-at="2024-07-23T14:22:11 IST" duration-ms="4842">
+      <class name="Restassured.RestAPI">
+        <test-method signature="postRequestBooksAPI()[pri:0, instance:Restassured.RestAPI@15c43bd9]" started-at="2024-07-23T14:22:06 IST" name="postRequestBooksAPI" finished-at="2024-07-23T14:22:09 IST" duration-ms="3175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestBooksAPI -->
+        <test-method signature="getRequestBooksAPI()[pri:0, instance:Restassured.RestAPI@15c43bd9]" started-at="2024-07-23T14:22:09 IST" name="getRequestBooksAPI" finished-at="2024-07-23T14:22:11 IST" depends-on-methods="Restassured.RestAPI.postRequestBooksAPI" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestBooksAPI -->
+      </class> <!-- Restassured.RestAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
